@@ -270,14 +270,14 @@ ul li .first-child {
   grid-column: 1/ 7;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 5.png");
+  background-image: url("../Images/Rectangle\ 5.png");
   border-radius: 14px;
 }
 .img-box2 {
   grid-column: 7/ 13;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 8.png");
+  background-image: url("../Images/Rectangle\ 8.png");
   border-radius: 14px;
 }
 
@@ -285,7 +285,7 @@ ul li .first-child {
   grid-column: 1/ 5;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 6.png");
+  background-image: url("../Images/Rectangle\ 6.png");
   border-radius: 14px;
 }
 
@@ -293,28 +293,28 @@ ul li .first-child {
   grid-column: 5/ 10;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 7.png");
+  background-image: url("../Images/Rectangle\ 7.png");
   border-radius: 14px;
 }
 .img-box5 {
   grid-column: 10/ 13;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 9.png");
+  background-image: url("../Images/Rectangle\ 9.png");
   border-radius: 14px;
 }
 .img-box6 {
   grid-column: 1/ 6;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 11.png");
+  background-image: url("../Images/Rectangle\ 11.png");
   border-radius: 14px;
 }
 .img-box7 {
   grid-column: 6/ 13;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/Rectangle\ 10.png");
+  background-image: url("../Images/Rectangle\ 10.png");
   border-radius: 14px;
 }
 
@@ -430,13 +430,13 @@ ul li .first-child {
   background-size: cover;
   border-radius: 14px;
   padding: 40px 40px;
-  background-image: url("../images/Group\ 39.png");
+  background-image: url("../Images/Group\ 39.png");
   margin-bottom: 20px;
 }
 
 .second{
     align-items: start;
-    background-image: url("../images/Group\ 40.png");
+    background-image: url("Iimages/Group\ 40.png");
 }
 
 .discount-card {
