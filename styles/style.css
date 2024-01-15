@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --Primary-color: #ff5400;
+  --Text-color: #131318;
+  --Gray-50: #5a5a5d;
+  --Dark-02: #424247;
+  --Font-description: 0.9rem;
+}
+
+/** Common Styles */
+
+/** Header Styles */
+
+header {
+  width: 80%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 100%;
+}
+
+.logo-container .logo-title {
+  padding-left: 10px;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.logo-container .title-1 {
+  color: var(--Text-color);
+}
+
+.logo-container .title-2 {
+  color: var(--Primary-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: red;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--Dark-02);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+ul li .first-child {
+  color: var(--Primary-color);
+  font-weight: 700;
+}
+
+.header-container {
+  margin-top: 50px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  border-radius: 12px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-bottom: 22px;
+}
+
+.header-description {
+  width: 600px;
+  color: #fff;
+  font-size: var(--Font-description);
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.dropdown-container {
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 14px 16px;
+}
+
+.dropdown-container button {
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.dropdown-container .btn-4 {
+  background: var(--Primary-color);
+  color: #fff;
+}
+
+.dropdown-container button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+}
+
+.dropdown-container button img {
+  width: 20px;
+}
+
+.dropdown-container .btn-4 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
