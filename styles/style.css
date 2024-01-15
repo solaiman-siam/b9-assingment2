@@ -23,10 +23,32 @@ body {
 
 /** Common Styles */
 
+.title {
+  color: var(--Text-color);
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: var(--Font-description);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.btn {
+  border-radius: 7px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border: 0;
+}
+
 /** Header Styles */
 
 header {
-  width: 80%;
+  width: 82%;
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -113,9 +135,6 @@ ul li .first-child {
 .header-description {
   width: 600px;
   color: #fff;
-  font-size: var(--Font-description);
-  font-weight: 400;
-  line-height: 24px;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -162,3 +181,70 @@ ul li .first-child {
   justify-content: center;
   gap: 10px;
 }
+
+/*** Popular Section */
+
+.popular {
+  padding-top: 100px;
+  width: 82%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+}
+
+.popular-content {
+  width: 50%;
+  
+}
+
+.popular-title {
+  padding-bottom: 24px;
+}
+
+.popular-description {
+  padding-bottom: 22px;
+}
+.popular-list li {
+  padding-bottom: 12px;
+}
+
+.popular-list {
+  padding-bottom: 12px;
+  width: 90%;
+}
+.popular ul {
+  padding-left: 20px;
+}
+.popular-image {
+  width: 50%;
+}
+
+.popular-image img {
+  width: 100%;
+}
+
+.popular-btn{
+    padding: 14px 32px;
+    margin-top: 6px;
+}
+
+
+/*** Destination Section  */
+
+.destination{
+    width: 82%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.destination-content{
+    text-align: center;
+}
+
+.destination-title{
+    padding-bottom: 22px;
+}
+
+
