@@ -395,6 +395,95 @@ ul li .first-child {
   width: 12%;
 }
 
-
 /*** Deals & Discount Section  */
 
+.discount {
+  width: 80%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.discount-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount-content .deals-title {
+  padding-bottom: 22px;
+}
+
+.deals-description {
+  padding-bottom: 40px;
+  width: 55%;
+  text-align: center;
+}
+.discount-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  height: 420px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+  padding: 40px 40px;
+  background-image: url("../images/Group\ 39.png");
+  margin-bottom: 20px;
+}
+
+.second{
+    align-items: start;
+    background-image: url("../images/Group\ 40.png");
+}
+
+.discount-card {
+  width: 55%;
+  background-color: #ffffffcb;
+  border-radius: 14px;
+  padding: 30px;
+  backdrop-filter: blur(2.5px);
+}
+
+.discount-card-top {
+  display: flex;
+  gap: 24px;
+}
+
+.discount-card-top .top1,
+.top2,
+.top3 {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 24px;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.discount-title {
+  color: var(--Text-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding-bottom: 14px;
+}
+
+.discount-description {
+  padding-bottom: 16px;
+  width: 80%;
+}
+
+.discount-price {
+  color: var(--Primary-color);
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.discount-btn {
+  padding: 12px 24px;
+  border-radius: 7px;
+}
