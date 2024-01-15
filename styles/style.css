@@ -40,7 +40,7 @@ body {
   border-radius: 7px;
   background: #ff5400;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 800;
   border: 0;
 }
@@ -422,6 +422,7 @@ ul li .first-child {
 .discount-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: end;
   width: 100%;
   height: 420px;
@@ -449,6 +450,10 @@ ul li .first-child {
 .discount-card-top {
   display: flex;
   gap: 24px;
+}
+
+.top1, .top2, .top3, img{
+    width: 20px;
 }
 
 .discount-card-top .top1,
@@ -486,4 +491,15 @@ ul li .first-child {
 .discount-btn {
   padding: 12px 24px;
   border-radius: 7px;
+}
+
+.discount-btn2{
+    padding: 12px 18px;
+}
+
+.deals-more-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
