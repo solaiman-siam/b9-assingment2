@@ -285,7 +285,7 @@ ul li .first-child {
   grid-column: 1/ 5;
   background-position: center;
   background-size: cover;
-  background-image: url("../Images/Rectangle\ 6.png");
+  background-image: url("/Images/Rectangle\ 6.png");
   border-radius: 14px;
 }
 
@@ -293,28 +293,28 @@ ul li .first-child {
   grid-column: 5/ 10;
   background-position: center;
   background-size: cover;
-  background-image: url("../Images/Rectangle\ 7.png");
+  background-image: url("/Images/Rectangle\ 7.png");
   border-radius: 14px;
 }
 .img-box5 {
   grid-column: 10/ 13;
   background-position: center;
   background-size: cover;
-  background-image: url("../Images/Rectangle\ 9.png");
+  background-image: url("/Images/Rectangle\ 9.png");
   border-radius: 14px;
 }
 .img-box6 {
   grid-column: 1/ 6;
   background-position: center;
   background-size: cover;
-  background-image: url("../Images/Rectangle\ 11.png");
+  background-image: url("/Images/Rectangle\ 11.png");
   border-radius: 14px;
 }
 .img-box7 {
   grid-column: 6/ 13;
   background-position: center;
   background-size: cover;
-  background-image: url("../Images/Rectangle\ 10.png");
+  background-image: url("/Images/Rectangle\ 10.png");
   border-radius: 14px;
 }
 
