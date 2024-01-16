@@ -1,0 +1,225 @@
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .description {
+        color: rgba(19, 19, 24, 0.7);
+        font-size: 1rem;
+        line-height: 24px;
+      }
+
+    /** Footer Section  */
+    footer{
+        margin-top: 30px;
+    }
+
+    .social-logo img {
+        width: 90%;
+      }
+
+    .footer-description{
+        width: 90%
+    }
+
+/** Newsletter Section */
+
+.newsletter, .Review{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.newsletter{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter-form, .newsletter-image{
+    width: 100%;
+}
+
+
+
+/** Reviews Section */
+
+.Review{
+    padding-top: 0px;
+}
+
+.review-title{
+    font-size: 1.8rem;
+}
+.review-card-main, .get-lost-video, .get-lost-content, .discount{
+    width: 100%;
+}
+
+.review-description{
+    width: 80%;
+}
+
+.review-card-main{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.review-card-container{
+    width: 80%;
+    height: 180px;
+}
+
+
+/*** Get Lost Section */
+
+.get-lost{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.get-lost-title{
+    font-size:1.8rem;
+    width: 65%;
+    line-height: 40px;
+}
+
+.get-lost-description{
+    width: 90%;
+}
+
+.get-lost-video{
+    height: 350px;
+}
+
+
+/**** Discount section  */
+
+.discount{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.discount-content .deals-title{
+    font-size: 1.8rem
+}
+
+.deals-description{
+    width: 80%;
+}
+
+.discount-container{
+    height: 550px;
+    justify-content: end;
+}
+.discount-card{
+    width: 100%;
+}
+
+.discount-card-top{
+    flex-wrap: wrap;
+}
+
+.discount-description{
+    width: 95%;
+}
+
+
+/*** Choose us Section  */
+
+.choose-us{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    
+}
+
+.choose-us-title{
+    font-size: 1.8rem;
+}
+
+.choose-us-description{
+    width: 80%
+}
+
+.choose-card-container{
+    flex-direction: column;
+}
+.choose-us-card{
+    width: 100%;
+}
+
+
+/**** Destination Section  */
+
+.destination{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.destination-title{
+    font-size: 1.8rem;
+}
+
+.destination-description{
+    width: 75%;
+}
+
+.destination-img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 270px);
+}
+
+.img-text {
+    grid-column: 1/ 13;
+} 
+
+/*** Popular Section  */
+
+.popular{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    flex-direction: column;
+}
+.popular-content{
+    width: 100%;
+}
+.popular-title{
+    font-size: 1.8rem;
+}
+
+.popular-image{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
