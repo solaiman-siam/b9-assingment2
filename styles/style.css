@@ -465,10 +465,10 @@ img {
   display: flex;
   width: fit-content;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   padding-bottom: 24px;
   color: #5a5a5d;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
@@ -561,7 +561,7 @@ img {
   border-radius: 12px;
 }
 
-/**** Revies Section */
+/**** Reviews Section */
 
 .Review {
   width: 82%;
@@ -603,8 +603,9 @@ img {
   gap: 20px;
   padding: 24px 30px;
   width: 24%;
-  height: 180px;
+  height: 220px;
   background: rgba(251, 181, 99, 0.1);
+  border-radius: 12px;
 }
 
 .review-card-text {
@@ -627,7 +628,7 @@ img {
 }
 
 .ratting img {
-  width: 15px;
+  width: 10px;
 }
 
 .person-fullname {
@@ -713,7 +714,7 @@ img {
 }
 
 .save-card {
-  width: 40%;
+  width: 270px;
   text-align: center;
   background-color: var(--Primary-color);
   border-radius: 8px;
@@ -721,7 +722,7 @@ img {
   color: #fff;
   position: absolute;
   right: 10px;
-  bottom: 45px;
+  bottom: 55px;
   transform: rotate(-25deg);
 }
 
@@ -757,6 +758,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
+  align-items: center;
 }
 
 .footer-description {
