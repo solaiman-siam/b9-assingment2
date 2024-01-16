@@ -103,6 +103,14 @@ ul li .first-child {
   font-weight: 700;
 }
 
+.btn1 input{
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0;
+  padding-left: 20px;
+}
+
 .header-container {
   margin-top: 50px;
   background: linear-gradient(
