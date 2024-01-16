@@ -109,6 +109,9 @@ ul li .first-child {
   border-radius: 8px;
   border: 0;
   padding-left: 20px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .header-container {
