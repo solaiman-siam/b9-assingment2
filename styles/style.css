@@ -520,6 +520,7 @@ img {
 
 .get-lost-content {
   width: 48%;
+  height: 200px;
 }
 
 .get-lost-title {
@@ -544,6 +545,8 @@ img {
 }
 
 .get-lost-video {
+  display: flex;
+  align-items: center;
   height: 400px;
   width: 48%;
   background-position: bottom;
@@ -551,7 +554,6 @@ img {
   border-radius: 12px;
   display: flex;
   align-items: center;
-
 }
 
 .get-lost-video video {
@@ -561,85 +563,174 @@ img {
 
 /**** Revies Section */
 
-.Review{
+.Review {
   width: 82%;
   max-width: 1180px;
   margin: 0 auto;
   padding-top: 100px;
 }
 
-.review-content{
+.review-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
 }
 
-.review-title{
+.review-title {
   text-align: center;
   padding-bottom: 24px;
 }
 
-.title-orange{
-  color:var(--Primary-color)
+.title-orange {
+  color: var(--Primary-color);
 }
 
-.review-description{
+.review-description {
   width: 35%;
   text-align: center;
 }
 
-.review-card-main{
+.review-card-main {
   display: flex;
   gap: 10px;
   justify-content: space-between;
 }
-.review-card-container{
+.review-card-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
   padding: 24px 30px;
-  width: 25%;
+  width: 24%;
   height: 180px;
-  background: rgba(251, 181, 99, 0.10);
+  background: rgba(251, 181, 99, 0.1);
 }
 
-.review-card-text{
-  color: rgba(18, 18, 18, 0.60);
+.review-card-text {
+  color: rgba(18, 18, 18, 0.6);
   font-size: 0.9rem;
 }
 
-.person-details{
+.person-details {
   display: flex;
   gap: 15px;
   align-items: center;
 }
 
-.person-details .person-image{
+.person-details .person-image {
   width: 35px;
 }
 
-.ratting{
+.ratting {
   padding-top: 5px;
 }
 
-.ratting img{
+.ratting img {
   width: 15px;
-
 }
 
-.person-fullname{
+.person-fullname {
   color: var(--Text-color);
   font-size: 1rem;
 }
 
-.color2{
+.color2 {
   background: rgba(41, 86, 246, 0.05);
 }
-.color3{
+.color3 {
   background: rgba(251, 11, 99, 0.05);
 }
-.color4{
+.color4 {
   background: rgba(10, 126, 26, 0.05);
 }
+
+/**** Newsletter Section */
+
+.newsletter {
+  width: 82%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-form {
+  width: 42%;
+  padding: 40px;
+  border-radius: 14px;
+  border: 1px solid #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-btn {
+  margin-top: 20px;
+}
+
+.newsletter-title {
+  color: var(--Text-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.newsletter-description {
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+hr {
+  margin-bottom: 24px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.newsletter-image {
+  width: 55%;
+  position: relative;
+}
+
+.newsletter-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter-form input,
+button {
+  display: block;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 14px 24px;
+  border-radius: 7px;
+  border: none;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.save-card{
+  width: 40%;
+  text-align: center;
+  background-color: var(--Primary-color);
+  border-radius: 8px;
+  padding: 20px 40px;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: 45px;
+  transform: rotate(-25deg);
+
+}
+
+.save-card-title{
+  padding-top: 5px;
+  font-weight: 800;
+}
+
+.save-card-subtitle{
+  font-weight: 400;
+}
+
+/* footer */
