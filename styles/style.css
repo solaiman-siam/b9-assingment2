@@ -561,3 +561,85 @@ img {
 
 /**** Revies Section */
 
+.Review{
+  width: 82%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.review-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.review-title{
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.title-orange{
+  color:var(--Primary-color)
+}
+
+.review-description{
+  width: 35%;
+  text-align: center;
+}
+
+.review-card-main{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.review-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 30px;
+  width: 25%;
+  height: 180px;
+  background: rgba(251, 181, 99, 0.10);
+}
+
+.review-card-text{
+  color: rgba(18, 18, 18, 0.60);
+  font-size: 0.9rem;
+}
+
+.person-details{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.person-details .person-image{
+  width: 35px;
+}
+
+.ratting{
+  padding-top: 5px;
+}
+
+.ratting img{
+  width: 15px;
+
+}
+
+.person-fullname{
+  color: var(--Text-color);
+  font-size: 1rem;
+}
+
+.color2{
+  background: rgba(41, 86, 246, 0.05);
+}
+.color3{
+  background: rgba(251, 11, 99, 0.05);
+}
+.color4{
+  background: rgba(10, 126, 26, 0.05);
+}
